@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	position: relative;
+}
+
+.search{
+	width: 375px;
+	height: 50px;
+	background-color: peachpuff;
+	
+}
+
+#city{
+	width: 375px;
+	height: 25px;
+	border: 2px solid peachpuff;
+	border-radius: 10px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	text-align: center;
+	color: black;
+	font-weight: 200;
+	margin-top: 10px;
+}
+
+.weather{
+	width: 375px;
+	height: 500px;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.bacimg{
+	width: 375px;
+	height: 500px;
+	background-image: url(../img/cat2.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	opacity: 0.4;	
+}
+
+.weather .nowjpg{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 110px;
+	top: 100px;	
+}
+
+.weather h1{
+	font-size: 20px;
+	font-family: arial;	
+	position: absolute;
+	left: 30px;
+	top: 60px;
+	color: midnightblue;
+	font-weight: 600;
+}
+
+.weather h2{
+	width: 100px;
+	height: 50px;
+	font-size: 30px;
+	font-family: arial;	
+	color: midnightblue;
+	font-weight: 600;
+	position: absolute;
+	left: 160px;
+	top: 260px;
+}
+
+.weather .condition{
+	font-size: 20px;
+	font-family: arial;	
+	color: midnightblue;
+	position: absolute;
+	right: 25px;
+	top: 60px;
+	opacity: 0.7;
+	font-weight: 600;
+}
+
+.getiao{
+	width: 375px;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	top: 340px;
+
+}
+
+.getiao img{
+	width: 50px;
+	height: 50px;
+}
+
+
+.hla{
+	width: 375px;
+	height: 100px;
+	position: absolute;
+	top: 400px;
+}
+.notice{
+	width: 375px;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
+}
+
+.notice .s1img{
+	width: 30px;
+	height: 30px;
+	margin-left: 20px;
+}
+
+.notice .s1 h4{
+	font-size: 12px;
+	color: burlywood;
+}
+
+.notice .s2 h4{
+	font-size: 12px;
+	color: burlywood;
+}
+
+.notice .s3 h4{
+	font-size: 12px;
+	color: burlywood;
+}
+
+.weather h3{
+	font-size: 20px;
+	font-family: arial;	
+	color: midnightblue;
+	font-weight: 600;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.txnotice .getiao2{
+	width: 375px;
+	height: 60px;
+	margin-top: 30px;
+	background-image: url(../img/fangao.png);
+	
+}
+
+.txnotice h1{
+	font-size: 20px;
+	margin-left: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.txnotice .tx{
+	width: 350px;
+	margin-left: 13px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.txnotice .tx h5{
+	color: cadetblue;
+	
+}
+
+.txnotice{
+	width: 375px;
+	height: 540.4px;	
+}
+
+.zj{
+	background-image: url(../img/1.jpg);
+	width: 375px;
+	height: 450px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	opacity: 0.3;
+}
+
